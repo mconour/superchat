@@ -4,7 +4,7 @@ A simple full-stack chat demo with **React** and **Firebase**.
 
 # How it works
 
-It's a single group chatroom that everybody can participate in, similar to Super Chat on YouTube.
+It's a single group chatroom that everybody can participate in, similar to SuperChat on YouTube.
 
 - To enter the chat, a user must log in using a Google account.
 - Once login, a user can post messages to the chat.
