@@ -10,7 +10,14 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+  apiKey: "AIzaSyDkzi4EeO5RJLzwPrEFH9ZPptPPAD37GmQ",
+  authDomain: "superchat-9cac7.firebaseapp.com",
+  databaseURL: "https://superchat-9cac7-default-rtdb.firebaseio.com",
+  projectId: "superchat-9cac7",
+  storageBucket: "superchat-9cac7.appspot.com",
+  messagingSenderId: "587638261291",
+  appId: "1:587638261291:web:824443a38c49b84d8ccc6e",
+  measurementId: "G-BYPSFEQKH6"
 })
 
 const auth = firebase.auth();
@@ -19,24 +26,23 @@ const analytics = firebase.analytics();
 
 
 function App() {
+  const [user] = useAuthState(auth);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <header>
+      <h1>⚛️🔥💬</h1>
+      <SignOut />
+    </header>
+
+    <section>
+      {user ? <ChatRoom /> : <SignIn />}
+    </section>
+
+  </div>
   );
 }
+
+
 
 export default App;
