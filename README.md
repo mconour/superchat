@@ -34,10 +34,6 @@ Detailed instructions and documentation can be found in the [Wiki](wiki) section
 
 We welcome contributions from the open-source community. If you'd like to contribute to SuperChat, please read our [Contribution Guidelines](CONTRIBUTING.md).
 
-## License
-
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Feel free to [create an issue](issues) if you have any questions or need assistance.
