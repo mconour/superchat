@@ -32,7 +32,7 @@ Detailed instructions and documentation can be found in the [Wiki](wiki) section
 
 ## Contribution
 
-We welcome contributions from the open-source community. If you'd like to contribute to SuperChat, please read our [Contribution Guidelines](CONTRIBUTING.md).
+I welcome contributions from the open-source community. 
 
 ---
 
